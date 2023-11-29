@@ -4,10 +4,10 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
   title: 'Text Generator APP',
-  description: 'App description',
+  description: 'EinfachChat',
   copyright: '',
-  privacy_policy: '',
-  default_language: 'zh-Hans',
+  privacy_policy: 'https://einfachalex.net/privacy',
+  default_language: 'de',
 }
 
 export const API_PREFIX = '/api'
