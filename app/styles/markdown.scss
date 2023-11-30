@@ -19,7 +19,7 @@
   --color-prettylights-syntax-markup-italic: #24292f;
   --color-prettylights-syntax-markup-bold: #24292f;
   --color-prettylights-syntax-markup-deleted-text: #82071e;
-  --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+  --color-prettylights-syntax-markup-deleted-bg: #191919;
   --color-prettylights-syntax-markup-inserted-text: #116329;
   --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
   --color-prettylights-syntax-markup-changed-text: #953800;
@@ -33,7 +33,7 @@
   --color-fg-default: #24292f;
   --color-fg-muted: #57606a;
   --color-fg-subtle: #6e7781;
-  --color-canvas-default: transparent;
+  --color-canvas-default: rgb(33, 33, 33);
   --color-canvas-subtle: #f6f8fa;
   --color-border-default: #d0d7de;
   --color-border-muted: hsla(210, 18%, 87%, 1);
@@ -172,7 +172,7 @@
 .markdown-body hr {
   box-sizing: content-box;
   overflow: hidden;
-  background: transparent;
+  background: black;
   border-bottom: 1px solid var(--color-border-muted);
   height: 0.25em;
   padding: 0;
@@ -334,7 +334,7 @@
 .markdown-body blockquote {
   margin: 0;
   padding: 0 8px;
-  border-left: 2px solid #2970FF;
+  border-left: 2px solid #8629ff;
 }
 
 .markdown-body ul,
@@ -610,7 +610,7 @@
 }
 
 .markdown-body table img {
-  background-color: transparent;
+  background-color: black;
 }
 
 .markdown-body img[align="right"] {
@@ -624,7 +624,7 @@
 .markdown-body .emoji {
   max-width: none;
   vertical-align: text-top;
-  background-color: transparent;
+  background-color: black;
 }
 
 .markdown-body span.frame {
@@ -747,7 +747,7 @@
   margin: 0;
   word-break: normal;
   white-space: pre;
-  background: transparent;
+  background: black;
   border: 0;
 }
 
@@ -763,7 +763,7 @@
 .markdown-body .highlight pre,
 .markdown-body pre {
   padding: 16px;
-  background: #fff;
+  background: #131313;
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
@@ -779,7 +779,7 @@
   overflow-x: scroll;
   line-height: inherit;
   word-wrap: normal;
-  background-color: transparent;
+  background-color: black;
   border: 0;
 }
 

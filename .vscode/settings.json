@@ -28,5 +28,6 @@
     "i18n",
     "i18n/lang",
     "app/api/messages"
-  ]
+  ],
+  "DockerRun.DisableDockerrc": true
 }
